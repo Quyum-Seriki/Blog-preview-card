@@ -10,7 +10,7 @@ body{
     background-color: hsl(47, 88%, 63%);
 }
 section{
-    margin: 70px auto;
+    margin: 70px auto 0 auto;
     width: 25%;
     padding: 30px 5px;
     background-color: hsl(0, 0%, 100%);
@@ -69,7 +69,8 @@ text-align: center;
         width: 50%;
 }
 section~p{
-    width: 50%;
+    width: 80%;
+    margin:10px 0 0 30px;
 }
 }
 @media (min-width: 458px) and (max-width: 768px){
