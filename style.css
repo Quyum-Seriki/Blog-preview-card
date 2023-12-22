@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+:root{
+    --font-family:Figtree;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+section{
+    margin: 70px auto;
+    width: 25%;
+    padding: 30px 5px;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 7%);
+    border-radius: 20px;
+    border-right: 10px solid hsl(0, 0%, 7%);
+    border-bottom: 10px solid hsl(0, 0%, 7%);
+}
+section div:first-of-type img{
+    margin-left: 30px;
+    border-radius: 10px;
+}
+section div:nth-last-child(2) h3{
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    padding: 5px 10px;
+    margin: 30px 0 0 30px;
+    border-radius: 5px;
+}
+section div:nth-last-child(2) p:first-of-type{
+    color: hsl(0, 0%, 7%);
+}
+section div:nth-last-child(2) p{
+    margin: 10px 30px;
+    color: hsl(0, 0%, 50%);
+}
+section div:nth-last-child(2) h1{
+    margin: 0 0 0 30px;
+    font-size: 20px;
+}
+section div:nth-last-child(2) h1:hover{
+    color: hsl(47, 88%, 63%);
+}
+section div:last-of-type{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 0;
+    margin: 30px 0 0 30px;
+}
+section div:last-of-type h3{
+    margin-right: 10em;
+}
+@media (min-width: 320px) and (max-width: 458px){
+    section{
+        width: 90%;
+    }
+    section div:first-of-type img{
+       width: 85%;
+    }
+    section div:last-of-type h3{
+        margin-left: 1em;
+        width: 50%;
+}
+}
+@media (min-width: 458px) and (max-width: 768px){
+    section{
+        width: 80%;
+    }
+}
